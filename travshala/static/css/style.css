@@ -1,0 +1,57 @@
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+/* Navbar */
+.navbar {
+    background-color: #ffffff;
+    border-bottom: 2px solid #f0f0f0;
+}
+.navbar .nav-link {
+    color: #000 !important;
+    font-weight: 500;
+}
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+    color: #FFD700 !important; /* Yellow highlight */
+}
+
+/* Hero Section */
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Form Section */
+.query-form-section {
+    background-color: #FFD700;
+    border-radius: 12px;
+    padding: 30px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+.query-form-section input,
+.query-form-section select,
+.query-form-section textarea {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* Button */
+.btn-custom {
+    background-color: #212529;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 6px;
+    padding: 10px 20px;
+}
+.btn-custom:hover {
+    background-color: #000;
+}
